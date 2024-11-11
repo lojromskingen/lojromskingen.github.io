@@ -1,0 +1,31 @@
+#wrapper{
+
+    height: 2500px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 5% 20% 5% 20% 5% 20% 25%;
+    grid-template-areas: 
+    
+    "header header . ."
+    "section1 section1 . ."
+    ;
+
+}
+
+Header{
+
+grid-area: header;
+background-color: blue;
+
+}
+
+#section1{
+
+    grid-area: section1;
+    background-color: red;
+
+}
+
+#section2{
+    
+}
