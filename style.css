@@ -12,10 +12,10 @@
 
 }
 
-Header{
+header{
 
 grid-area: header;
-background-color: black;
+background-color: blue;
 
 }
 
@@ -26,6 +26,11 @@ background-color: black;
 
 }
 
+
+
+
+
 #section2{
     
 }
+
