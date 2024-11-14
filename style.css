@@ -27,7 +27,7 @@ background-color: blue;
 
 }
 
-h1{
+#h1{
 
     grid-area: h1;
     background-color: green;
@@ -38,5 +38,15 @@ h1{
 
 #section2{
     
+    grid-area: section2;
+    background-color: red;
+
+
 }
 
+#h2{
+
+    grid-area: h2;
+    background-color: green;
+
+}
