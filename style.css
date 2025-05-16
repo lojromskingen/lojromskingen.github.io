@@ -1,16 +1,32 @@
+body{
+height: 100vh;
+width: 100vw;
+
+}
+
+
 #wrapper{
 
-    height: 2500px;
+    height: 250%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 5% 20% 5% 20% 5% 20% 25%;
+    grid-template-rows: 6% 15% 25% 2% 22% 30% 2% 15% 9% 4% 8% 7% 9% 9%;
     grid-template-areas: 
     
     "header header . ."
     "section1 section1 . ."
+    ". . . ."
     "h1 h1 . ."
     "section2 section2 . ."
-    "h2 h2 . ."
+    ". . . ."
+    "h2 . . ."
+    "section3 section3 . ."
+    ". . . ."
+    "footer footer . ."
+    "div1 div1 div1 div1"
+    "div2 div2 div2 div2"
+    "div3 div3 div3 div3"
+    "div4 div4 div4 div4"
     ;
 
 }
@@ -18,21 +34,32 @@
 header{
 
 grid-area: header;
-background-color: blue;
+text-align: center;
+font-size: 500%;
+font-style: italic;
+font-weight: 500;
 
 }
 
 #section1{
 
     grid-area: section1;
-    background-color: red;
+    font-style: italic;
+    font-size: 150%;
 
 }
+
+
+
 
 #h1{
 
     grid-area: h1;
-    background-color: green;
+    font-style: italic;
+    font-size: 300%;
+    font-weight: 500;
+    text-align: center;
+    
 
 }
 
@@ -41,14 +68,179 @@ background-color: blue;
 #section2{
     
     grid-area: section2;
-    background-color: red;
-
+    font-style: italic;
+    font-size: 150%;
 
 }
+
+
+
 
 #h2{
 
     grid-area: h2;
-    background-color: green;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 300%;
+    text-align: center;
+
+
+}
+
+#section3{
+
+    grid-area: section3;
+
+
+}
+
+#köp{
+
+    font-size: 230%;
+
+}
+
+#priser{
+
+    font-size: 230%;
+    position: relative; left: 10px;
+    position: relative; top: -20px;
+
+}
+
+#g150{
+
+    position: relative; left: 30px;
+    position: relative; top: -40px;
+    font-size: 150%;
+
+}
+
+#g250{
+
+    position: relative; left: 30px;
+    position: relative; top: -60px;
+    font-size: 150%;
+
+}
+
+#g500{
+
+    position: relative; left: 30px;
+    position: relative; top: -80px;
+    font-size: 150%;
+
+}
+
+#g750{
+
+    position: relative; left: 30px;
+    position: relative; top: -100px;
+    font-size: 150%;
+
+}
+
+#kg1{
+
+    position: relative; left: 30px;
+    position: relative; top: -120px;
+    font-size: 150%;
+
+}
+
+footer{
+
+    grid-area: footer;
+    font-size: 400%;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+#Johan{
+
+    font-size: 200%;
+
+}
+
+#Johans{
+
+    font-size: 130%;
+    position: relative; left: 30px;
+
+}
+
+
+#div1{
+
+    grid-area:div1;
+
+}
+
+#Rasmus{
+
+    font-size: 200%;
+
+}
+
+#Rasmuss{
+
+    font-size: 130%;
+    position: relative; left: 30px;
+
+}
+
+
+#div2{
+
+    grid-area:div2;
+
+}
+
+#Mölwin{
+
+    font-size: 200%;
+
+}
+
+#Mölwins{
+
+    font-size: 130%;
+    position: relative; left: 30px;
+
+}
+
+
+#div3{
+
+    grid-area:div3;
+
+}
+
+#Alexander{
+
+    font-size: 200%;
+
+}
+
+#Alexanders{
+
+    font-size: 130%;
+    position: relative; left: 30px;
+
+}
+
+#Alex{
+
+    font-size: 130%;
+    position: relative; left: 30px;
+    position: relative; top: -20px;
+
+}
+
+
+#div4{
+
+    grid-area:div4;
 
 }
